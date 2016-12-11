@@ -3,11 +3,18 @@
   "description": "Design-driven apis with swagger 2.0 and hapi.",
   "version": "2.0.0",
   "author": "Trevor Livingston <tlivings@gmail.com>",
+  "contributors": [
+    {
+      "name": "Christian Dannie Storgaard",
+      "email": "cybolic@gmail.com",
+      "url": "http://cybolic.me/"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/krakenjs/swaggerize-hapi.git"
+    "url": "git://github.com/Cybolic/swaggerize-hapi.git"
   },
-  "bugs": "http://github.com/krakenjs/swaggerize-hapi/issues",
+  "bugs": "http://github.com/Cybolic/swaggerize-hapi/issues",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -18,9 +25,8 @@
     "async": "^1.5.0",
     "core-util-is": "^1.0.1",
     "hoek": "^2.6.0",
-    "joi": "^6.6.1",
     "js-yaml": "^3.2.6",
-    "swaggerize-routes": "^1.0.3"
+    "swaggerize-routes": "git://github.com/Cybolic/swaggerize-routes.git"
   },
   "devDependencies": {
     "boom": "~2.8.0",
